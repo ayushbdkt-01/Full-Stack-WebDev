@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css'
 import Title from './Title.jsx';
 import ProductCard from './ProductCard.jsx';  
+import MsgBox from "./MsgBox.jsx"
 
 
 function App() {
@@ -9,8 +10,9 @@ function App() {
 
   return (
     <div>
-      <ProductCard/>
-      <ProductCard/>
+      <MsgBox username="ayush_01" textColor="blue"/>
+      <MsgBox username="heyy.ayush__01" textColor="magenta"/>
+
     </div>
   );
 }
